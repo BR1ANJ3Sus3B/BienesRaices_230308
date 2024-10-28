@@ -7,7 +7,7 @@ import userRoutes from './routes/userRoutes.js'
 // ? Instanciar nuestra aplicacion web
 
 import express from 'express'
-const port = 3005;
+const port = 3006;
 
 const app = express();
 
