@@ -1,14 +1,14 @@
 module.exports = {
   content: [
-    './src/**/*.{html,js,pug}', // Ajusta esta línea según la estructura de tu proyecto
-    './views/**/*.{html,js,pug}', // Ajusta esta línea según la estructura de tu proyecto
+    './src/**/*.{html,js,pug}', 
+    './views/**/*.{html,js,pug}', 
   ],
   theme: {
     extend: {
       colors: {
-        customLightBlue: '#80E8F4',  // Define el color personalizado aquí
-        customButtonColor: '#ff5733', 
-        customButtonColor: '#ff5733',
+        customLightBlue: '#B6C3F5',
+        customButtonColor: '#ff5733',        
+        customLightGreen: '#74F4E8',
       },
     },
   },
