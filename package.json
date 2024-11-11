@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "Saludo": "node Saludo.js",
-    "server": "nodemon index.js"
+    "server": "nodemon index.js",
+     "css": "postcss Public/css/tailwind.css -o Public/css/app.css --watch"
   },
   "repository": {
     "type": "git",
@@ -32,10 +33,14 @@
   },
   "homepage": "https://github.com/BR1ANJ3Sus3B/BienesRaices_230308#readme",
   "devDependencies": {
-    "nodemon": "^3.1.7"
+    "autoprefixer": "^10.4.20",
+    "nodemon": "^3.1.7",
+    "postcss": "^8.4.49",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^3.4.14"
   },
   "dependencies": {
-  
-    "express": "^4.18.2" 
+    "express": "^4.18.2",
+    "pug": "^3.0.3"
   }
 }
