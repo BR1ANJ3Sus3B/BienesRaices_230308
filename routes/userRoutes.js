@@ -7,8 +7,8 @@ const router = express.Router();
 
 // Rutas de autenticación
 router.get('/login', formularioLogin);
-router.get('/registro', formularioRegister);
-router.get('/recuperar', formularioPasswordRecovery);
+router.get('/Register', formularioRegister);
+router.get('/Recovery', formularioPasswordRecovery);
 
 // Otras rutas de ejemplo
 router.get("/FindById/:Id", (request, response) => {
